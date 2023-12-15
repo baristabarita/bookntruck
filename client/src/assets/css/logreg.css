@@ -1,0 +1,28 @@
+/* UserLogin.css */
+
+.container-box {
+  width: 80%;
+  max-width: 800px;
+  box-shadow: 0 12px 15px -6px rgba(0, 0, 0, 0.3), 0 4px 25px 0 rgba(0, 0, 0, 0.2), 0 8px 10px -8px rgba(0, 0, 0, 0.2);
+}
+
+.hoverable1{ 
+  background-color: #2274A5; 
+  color: white;
+  transition: background-color 0.3s; 
+}
+.hoverable1:hover{
+  background-color: #003249;
+  color: white;
+}
+
+.hoverable2{ 
+  background-color: white; 
+  color: #2274A5;
+  border: 2px solid #003249;
+  transition: background-color 0.3s; 
+}
+.hoverable2:hover{
+  background-color: black;
+  color: white;
+}
